@@ -98,7 +98,19 @@ def timer(value):
         sprite_index[1] = 1
         walk = True
         
-    elif
+    elif 'a' in keys_down:
+        sprite_index[1] = 0
+        walk = True
+    
+    elif 'd' in keys_down:
+        sprite_index[1] = 2
+        walk = True
+    
+    elif 's' in keys_down = 3
+        sprite_index[1]
+        walk = True
+    
+    if walk:
 
     glutPostRedisplay()
     glutTimerFunc(TIMER_TIME, timer, 0)
