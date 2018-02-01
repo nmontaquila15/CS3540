@@ -106,11 +106,18 @@ def timer(value):
         sprite_index[1] = 2
         walk = True
     
-    elif 's' in keys_down = 3
-        sprite_index[1]
+    elif 's' in keys_down:
+        sprite_index[1] = 3
         walk = True
     
     if walk:
+        last_sprite_change -= 1
+        if last_sprite_change == 0:
+            last_sprite_change = TIMERS_PER_SPRITE
+            cycle_index += 1
+            sprite_index[0] = cycle_index % 4
+            if sprite_index[0] == 3:
+                sprite_index[0] = 1
 
     glutPostRedisplay()
     glutTimerFunc(TIMER_TIME, timer, 0)
