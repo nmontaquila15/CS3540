@@ -1,0 +1,1 @@
++0.5 - Add a third animation that is transitioned to by pressing enter from either state. Pressing space in the third state will transition back to one of the first two.
