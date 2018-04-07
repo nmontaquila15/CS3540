@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "UniteBoston2015TrainingDay",
+"dataUrl": "Build_turnin.data.unityweb",
+"asmCodeUrl": "Build_turnin.asm.code.unityweb",
+"asmMemoryUrl": "Build_turnin.asm.memory.unityweb",
+"asmFrameworkUrl": "Build_turnin.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
